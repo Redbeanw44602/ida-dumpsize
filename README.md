@@ -1,7 +1,7 @@
 # ida-dumpsize
 This is an IDA script that exports reliable structure size information based on the results of the Hex-Rays decompiler.
 
-### Limitation
+### Limitations
  - Make sure you have a license for the Hex-Rays decompiler.
  - Analysis based on `operator new` calls.
  - If the Hex-Rays results have errors, they cannot be fixed.
